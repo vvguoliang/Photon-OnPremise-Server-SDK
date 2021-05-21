@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LoadTest.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EncryptData" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AppId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">865f51f4-6a72-4e23-b66e-5a8138cc4263</Value>
+    </Setting>
+    <Setting Name="AppVer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1.0</Value>
+    </Setting>
+    <Setting Name="AppRegion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EU</Value>
+    </Setting>
+    <Setting Name="NameServerIPAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="UserBase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">%MACHINENAME%</Value>
+    </Setting>
+    <Setting Name="LogPrintIntervalMS" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="StartupTimeS" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="ThreadsCount" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="SecondRequestLatencyMS" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="ConcurrentUsers" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="NameServerPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5056</Value>
+    </Setting>
+    <Setting Name="TestDurationM" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="MaxClientsCount" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="StartPerSecond" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="ConnectLatencyMS" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

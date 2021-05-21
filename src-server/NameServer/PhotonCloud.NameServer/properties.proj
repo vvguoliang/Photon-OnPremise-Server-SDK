@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Error" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+
+    <AuthTokenKey>76B2814E-2A50-4E29-838A-20411D335FC9</AuthTokenKey>
+    <HMACTokenKey>DD6FD4DE-BF09-46A1-833E-ACDC22DD3FC7</HMACTokenKey>
+    <AccountServiceUrl>https://dev-service.exitgames.com/api/application/{0}</AccountServiceUrl>
+    <AccountServiceUsername>ExitGamesPhoton</AccountServiceUsername>
+    <AccountServicePassword>hy7T2W47xz</AccountServicePassword>
+    <AccountServiceTimeout>5000</AccountServiceTimeout>
+    <BlobServiceUrl><![CDATA[https://photondeveuwest.blob.core.windows.net/accountservice/{0}?sr=c&si=gameserver&sig=RxGsSv41N7ZFa1g3SXSC7TB%2FkcWVPjAngVPaBNfx72U%3D]]></BlobServiceUrl>
+    <FallbackBlobServiceUrl><![CDATA[https://photondeveuwest.blob.core.windows.net/accountservice/{0}?sr=c&si=gameserver&sig=RxGsSv41N7ZFa1g3SXSC7TB%2FkcWVPjAngVPaBNfx72U%3D]]></FallbackBlobServiceUrl>
+
+    <Region>EU</Region>
+    <PrivateCloud>Public</PrivateCloud>
+    <Cluster>Default</Cluster>
+
+    <PublicMasterServerPortUdp>5055</PublicMasterServerPortUdp>
+    <PublicMasterServerPortTcp>4530</PublicMasterServerPortTcp>
+    <PublicMasterServerPortWebSocket>9090</PublicMasterServerPortWebSocket>
+    <PublicMasterServerPortHttp>80</PublicMasterServerPortHttp>
+    <PublicMasterServerPortSecureHttp>443</PublicMasterServerPortSecureHttp>
+    <PublicMasterServerPortSecureWebSocket>19090</PublicMasterServerPortSecureWebSocket>
+
+    <StackifyApiKey>5Ih4El3Dv2Ro8Ye7Ch5Yk4Xp5Rt8Cm8Tm2Qx3Kr</StackifyApiKey>
+    <StackifyAppName>StageTests</StackifyAppName>
+    <StackifyEnvironmentName>LocalDev</StackifyEnvironmentName>
+
+    <UseEncryptionQueue>true</UseEncryptionQueue>
+    <EncryptionQueueLimit>1000</EncryptionQueueLimit>
+
+    <PlayerIoKeys>00000000-0000-0000-1111-000000000000;00000000-0000-0000-2222-000000000000;00000000-0000-0000-3333-000000000000</PlayerIoKeys>
+    <PlayerIoKeys2>00000000-0000-1111-0000-000000000000;00000000-0000-2222-0000-000000000000;00000000-0000-3333-0000-000000000000</PlayerIoKeys2>
+
+  </PropertyGroup>
+
+</Project>

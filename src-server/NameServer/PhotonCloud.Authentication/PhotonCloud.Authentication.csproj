@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EEFBB253-C234-4229-9398-8351300108B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhotonCloud.Authentication</RootNamespace>
+    <AssemblyName>PhotonCloud.Authentication</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExitGames.Logging.Log4Net">
+      <HintPath>..\..\..\lib\ExitGames.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="ExitGamesLibs">
+      <HintPath>..\..\..\lib\ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="jose-jwt, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\lib\Jose\jose-jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\lib\Newtonsoft\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.SocketServer">
+      <HintPath>..\..\..\lib\Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces, Version=3.56.0.0, Culture=neutral, PublicKeyToken=6cb1467adaa73020, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\..\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountService\AccountService.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="AccountService\AccountServiceFactory.cs" />
+    <Compile Include="AccountService\Diagnostic\Counter.cs" />
+    <Compile Include="AccountService\Diagnostic\PerfCounter.cs" />
+    <Compile Include="AccountService\Health\AccountServiceHealthController.cs" />
+    <Compile Include="CustomAuth\Diagnostic\PhotonCustomAuthCounters.cs" />
+    <Compile Include="CustomAuth\IVACustomAuthCounters.cs" />
+    <Compile Include="TokenAuthLevel.cs" />
+    <Compile Include="Configuration\MasterServerElement.cs" />
+    <Compile Include="Configuration\MasterServerElementCollection.cs" />
+    <Compile Include="Configuration\MasterServersConfiguration.cs" />
+    <Compile Include="Utilities\PluginInfoGenerator.cs" />
+    <Compile Include="VAppsAuthTokenFactory.cs" />
+    <Compile Include="Caching\CustomAuthenticationCache.cs" />
+    <Compile Include="Data\ExternalApiInfo.cs" />
+    <Compile Include="Data\ExternalApiInfoList.cs" />
+    <Compile Include="Data\ExternalApiSubType.cs" />
+    <Compile Include="Data\ExternalApiType.cs" />
+    <Compile Include="Data\ExternalApiValue.cs" />
+    <Compile Include="AccountService\CustomWebClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MasterServerDispatcherBase.cs" />
+    <Compile Include="ApplicationAccount.cs" />
+    <Compile Include="Caching\AccountCache.cs" />
+    <Compile Include="VAppsAuthenticationToken.cs" />
+    <Compile Include="Caching\CachedFunc.cs" />
+    <Compile Include="Caching\CachedFuncBase.cs" />
+    <Compile Include="Caching\CacheItem.cs" />
+    <Compile Include="Data\AccountServiceReturnValue.cs" />
+    <Compile Include="Data\TmpApplicationAccount.cs" />
+    <Compile Include="Data\ClientAuthenticationServiceInfo.cs" />
+    <Compile Include="Data\ClientAuthenticationServiceInfoList.cs" />
+    <Compile Include="AccountService\DefaultAccountService.cs" />
+    <Compile Include="AccountService\IAccountService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Settings.cs" />
+    <Compile Include="VAppsCustomAuthHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Photon.Cloud.Common\Photon.Cloud.Common.csproj">
+      <Project>{A5EE2CD4-E658-405D-ADF8-748C505AA77D}</Project>
+      <Name>Photon.Cloud.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Photon.Common\Photon.Common.csproj">
+      <Project>{1ddb6b23-41f0-4c63-b945-0c7d3f902d1c}</Project>
+      <Name>Photon.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

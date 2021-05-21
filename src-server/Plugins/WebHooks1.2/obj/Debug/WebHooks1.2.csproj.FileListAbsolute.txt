@@ -1,0 +1,9 @@
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Plugins\WebHooks1.2\bin\PhotonHive.WebHooksPlugin1.2.dll
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Plugins\WebHooks1.2\bin\PhotonHive.WebHooksPlugin1.2.pdb
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Plugins\WebHooks1.2\bin\Newtonsoft.Json.dll
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Plugins\WebHooks1.2\bin\PhotonHivePlugin.dll
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\WebHooks1.2.csprojAssemblyReference.cache
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\WebHooks1.2.csproj.CoreCompileInputs.cache
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\WebHooks1.2.csproj.CopyComplete
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\PhotonHive.WebHooksPlugin1.2.dll
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\PhotonHive.WebHooksPlugin1.2.pdb

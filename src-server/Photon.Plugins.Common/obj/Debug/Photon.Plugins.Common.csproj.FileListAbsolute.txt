@@ -1,0 +1,11 @@
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Photon.Plugins.Common\bin\Debug\Photon.Plugins.Common.dll
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Photon.Plugins.Common\bin\Debug\Photon.Plugins.Common.pdb
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Photon.Plugins.Common\obj\Debug\Photon.Plugins.Common.csproj.CoreCompileInputs.cache
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Photon.Plugins.Common\obj\Debug\Photon.Plugins.Common.dll
+E:\Photon-OnPremise-Server-SDK_v4-0-29-11263\src-server\Photon.Plugins.Common\obj\Debug\Photon.Plugins.Common.pdb
+E:\git\Photon-OnPremise-Server-SDK\src-server\Photon.Plugins.Common\bin\Debug\Photon.Plugins.Common.dll
+E:\git\Photon-OnPremise-Server-SDK\src-server\Photon.Plugins.Common\bin\Debug\Photon.Plugins.Common.pdb
+E:\git\Photon-OnPremise-Server-SDK\src-server\Photon.Plugins.Common\obj\Debug\Photon.Plugins.Common.csproj.CoreCompileInputs.cache
+E:\git\Photon-OnPremise-Server-SDK\src-server\Photon.Plugins.Common\obj\Debug\Photon.Plugins.Common.dll
+E:\git\Photon-OnPremise-Server-SDK\src-server\Photon.Plugins.Common\obj\Debug\Photon.Plugins.Common.pdb
+E:\git\Photon-OnPremise-Server-SDK\src-server\Photon.Plugins.Common\obj\Debug\Photon.Plugins.Common.csprojAssemblyReference.cache

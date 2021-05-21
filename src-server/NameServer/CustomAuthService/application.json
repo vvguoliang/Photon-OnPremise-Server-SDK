@@ -1,0 +1,92 @@
+{
+    "ApplicationId": "865f51f4-6a72-4e23-b66e-5a8138cc4263",
+    "ApplicationType": 1,
+    "ApplicationName": "ilya@exitgames.com",
+    "ApplicationUrl": "",
+    "Description": "Default",
+    "SubscriptionId": null,
+    "SubscriptionStatus": null,
+    "SubscriptionStart": null,
+    "SubscriptionEnd": null,
+    "SubscriptionCode": null,
+    "SubscriptionActive": false,
+    "Subscription100CcuOneTime": null,
+    "MailSent": 0,
+    "Adjustment": null,
+    "EgNote": null,
+    "ApplicationStatusString": "-",
+    "ApplicationCcu": 20,
+    "ApplicationCcuBurst": false,
+    "ApplicationRegion": "All",
+    "PrivateCloud": "Public",
+    "PartnerPackageValidUntil": null,
+    "PartnerPackageValidForever": false,
+    "PartnerPackageCode": null,
+    "PartnerPackageCcu": 0,
+    "SubscriptionCcuMultiplier": 0,
+    "ClientAuthenticationAllowAnonymous": true,
+    "ClientAuthenticationServiceInfoList": {
+        "Entries": [
+            {
+                "AuthenticationType": 0,
+                "RejectIfUnavailable": true,
+                "AuthUrl": "http://localhost:9000/api/auth",
+                "NameValuePairs": { }
+            }
+        ],
+        "TotalRecordCount": 1
+    },
+    "ExternalApiInfoList": {
+        "Entries": [
+            {
+                "ApiName": "CustomExtension",
+                "ApiNameDisplay": "CustomExtension",
+                "ApiSubType": 0,
+                "ApiType": 2,
+                "ApiValues": [
+                    {
+                        "Name": "AssemblyName",
+                        "Value": "Qmax.Kopatel.HivePlugin.dll",
+                        "Mandatory": false,
+                        "ReadonlyValue": false,
+                        "DisplayOrder": 0
+                    },
+                    {
+                        "Name": "Type",
+                        "Value": "Qmax.Kopatel.HivePlugin",
+                        "Mandatory": false,
+                        "ReadonlyValue": false,
+                        "DisplayOrder": 0
+                    },
+                    {
+                        "Name": "Path",
+                        "Value": "Qmax\\Qmax.Kopatel.HivePlugin",
+                        "Mandatory": false,
+                        "ReadonlyValue": false,
+                        "DisplayOrder": 0
+                    },
+                    {
+                        "Name": "WebServerURL",
+                        "Value": "http://85.25.118.169/VK2/",
+                        "Mandatory": false,
+                        "ReadonlyValue": false,
+                        "DisplayOrder": 0
+                    },
+                    {
+                        "Name": "Version",
+                        "Value": "1.0",
+                        "Mandatory": false,
+                        "ReadonlyValue": false,
+                        "DisplayOrder": 0
+                    }
+                ]
+            }
+        ],
+        "TotalRecordCount": 1
+    },
+    "LabEnabled": false,
+    "ServiceType": 0,
+    "ReturnCode": 0,
+    "Message": "Ok",
+    "MessageDetailed": null
+}

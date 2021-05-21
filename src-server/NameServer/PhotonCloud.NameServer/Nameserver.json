@@ -1,0 +1,214 @@
+{
+  "Nodes": [
+    // -----------------Realtime Public SingleServer---------------------------------------
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "SingleServer",
+      "IpAddress": "SingleServerDefaultIp",
+      "UseV1Token": "True",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    //------------------Test region---------------------------------------------
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion",
+      "IpAddress": "TestRegionDefaultIp1",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion",
+      "IpAddress": "TestRegionDefaultIp2",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion",
+      "IpAddress": "TestRegionCluster0Ip",
+      "Cluster": "cluster0",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion",
+      "IpAddress": "TestRegionCluster1Ip",
+      "Cluster": "cluster1",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion",
+      "IpAddress": "TestRegionCluster2Ip",
+      "Cluster": "cluster2",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    //------------------Test region No Cluster0---------------------------------------------
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegionNoCluster0",
+      "IpAddress": "TestRegionNoCluster0DefaultIp1",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    // -----------------Realtime Public EU---------------------------------------
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "EU",
+      "IpAddress": "127.0.0.1",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "EU",
+      "IpAddress": "127.0.0.1",
+      "Cluster": "cluster0",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    // -----------------Realtime Public JP---------------------------------------
+//    {
+//      "ServiceTypes": ["Realtime"],
+//      "PrivateCloud": "Public",
+//      "Region": "JP",
+//      "IpAddress": "JpDefaultIp",
+//      "IpAddressIPv6": "::1",
+//      "Hostname": "localhost"
+//    },
+    // -----------------Realtime Public TestCluster1Region---------------------------------------
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestCluster1Region",
+      "Cluster": "cluster1",
+      "IpAddress": "TestCluster1RegionIp",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    // -----------------Realtime Public TestRegion_US---------------------------------------
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion_US",
+      "IpAddress": "TestRegion_USDefaultIp",
+      "UseV1Token": "false",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion_US",
+      "Cluster": "Cluster0",
+      "IpAddress": "TestRegion_USCluster0Ip",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion_US",
+      "Cluster": "Cluster2",
+      "IpAddress": "TestRegion_USCluster2Ip",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion_US",
+      "Cluster": "Cluster3",
+      "IpAddress": "TestRegion_USCluster3Ip",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    // -----------------Realtime NameServerTestCloud---------------------------------------
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "NameServerTestCloud",
+      "Region": "TestRegion",
+      "Cluster": "default",
+      "IpAddress": "NameServerTestCloudTestRegionDefaultIp",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "NameServerTestCloud",
+      "Region": "TestRegion",
+      "Cluster": "cluster1",
+      "IpAddress": "NameServerTestCloudTestRegionCluster1Ip",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "NameServerTestCloud",
+      "Region": "TestRegion_US",
+      "Cluster": "Cluster2",
+      "IpAddress": "NameServerTestCloudTestRegion_UsCluster2Ip",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "NameServerTestCloud",
+      "Region": "TestRegion_US",
+      "Cluster": "Cluster3",
+      "IpAddress": "NameServerTestCloudTestRegion_UsCluster3Ip",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Realtime"],
+      "PrivateCloud": "NameServerTestCloud",
+      "Region": "TestRegion_JP",
+      "IpAddress": "NameServerTestCloudTestRegion_JpCluster3Ip",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    // -----------------Chat Public EU---------------------------------------
+    {
+      "ServiceTypes": [ "Chat" ],
+      "PrivateCloud": "Public",
+      "Region": "EU",
+      "IpAddress": "ChatPublicEuDefaultIp",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+     // -----------------Chat Public---------------------------------------
+    {
+      "ServiceTypes": ["Chat"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion",
+      "Cluster": "default",
+      "IpAddress": "ChatPublicCloudTestRegionDefaultIp",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+    {
+      "ServiceTypes": ["Chat"],
+      "PrivateCloud": "Public",
+      "Region": "TestRegion",
+      "Cluster": "cluster0",
+      "IpAddress": "ChatPublicCloudTestRegionCluster0Ip",
+      "IpAddressIPv6": "::1",
+      "Hostname": "localhost"
+    },
+ ]
+}
